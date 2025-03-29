@@ -1,1 +1,5 @@
-pip install numpy pandas scikit-learn streamlit seaborn
+numpy
+pandas
+scikit-learn
+streamlit
+seaborn
