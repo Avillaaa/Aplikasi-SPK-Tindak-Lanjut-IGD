@@ -2,12 +2,6 @@ import streamlit as st
 ## import library
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt; plt.style.use('ggplot')
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LogisticRegression
-from sklearn.linear_model import LinearRegression
-from sklearn.neighbors import KNeighborsRegressor
-from sklearn.metrics import confusion_matrix, classification_report
 import pickle
 
 # df = pd.read_excel('F:\KEDE\Documents\Kuliah\SKRIPSI\projek\Dataset Magang - Data Triage dan ASMED IGD.xlsx')
