@@ -9,8 +9,8 @@ import pickle
 # Muat model
 filename = './model_logistic_regression.sav'
 loaded_model = pickle.load(open(filename, 'rb'))
-filename = './minmax_scalerr.sav'
-scaler = pickle.load(open(filename, 'rb'))
+filename1 = './minmax_scalerr.sav'
+scaler = pickle.load(open(filename1, 'rb'))
 
 
 st.title("Aplikasi Sederhana Untuk Menentukan Tindak Lanjut Akhir Pasien IGD")
