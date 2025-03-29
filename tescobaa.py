@@ -7,9 +7,9 @@ import pickle
 # df = pd.read_excel('F:\KEDE\Documents\Kuliah\SKRIPSI\projek\Dataset Magang - Data Triage dan ASMED IGD.xlsx')
 
 # Muat model
-filename = 'F:\KEDE\Documents\Kuliah\SKRIPSI\projek\model_logistic_regression.sav'
+filename = './model_logistic_regression.sav'
 loaded_model = pickle.load(open(filename, 'rb'))
-filename = 'F:\KEDE\Documents\Kuliah\SKRIPSI\projek\minmax_scalerr.sav'
+filename = './minmax_scalerr.sav'
 scaler = pickle.load(open(filename, 'rb'))
 
 
